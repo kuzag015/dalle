@@ -10,7 +10,9 @@ const App = () => {
       <Link to='/'>
         Powered by<img src={logo} alt="logo" className='w-28 object-contain'/>
       </Link>
-      <Link to='/create-post' className='font-inter font-medium bg-[#6469ff] text-white px-4 py-2 rounded-md'>Create</Link>
+      <div className='flex justify-between items-center space-x-3'>
+        <Link to='/create-post' className='font-inter font-medium bg-[#6469ff] text-white px-4 py-2 rounded-md'>Create</Link>
+      </div>
     </header>
     <main className='sm:p-8 px-4 py-8 w-full bg-[#fffac6] min-h-[calc(100vh-73px)]'>
       <Routes>

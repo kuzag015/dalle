@@ -64,7 +64,7 @@ const Home = () => {
     <section className='max-w-7xl mx-auto'>
         <div>
             <h1 className='font-extrabold text-[#222328] text-[32px]'><i>BEHOLD! THE AWESOME/TERRIFYING POWER OF AI</i></h1>
-            <p className='mt-2 text-[#666e75] text-[16px] max-w-[500px]'>Just look at what you've done..</p>
+            <p className='mt-2 text-[#666e75] text-[16px] max-w-[500px]'>...and this is what you've done with it? Really?</p>
         </div>
 
         <div className='mt-16'>
